@@ -19,32 +19,3 @@ The **Zip Tree and Skip List** project provides implementations of two advanced 
 ├── skip_list.py              # Skip List implementation
 └── zip_tree.py               # Zip Tree implementation
 ```
-## Installation
-Clone the repository:
-git clone https://github.com/SushmithaJagannath21/Zip_Tree_and_Skip_List.git
-
-Navigate to the project directory:
-cd Zip_Tree_and_Skip_List
-
-Install any required dependencies:
-pip install -r requirements.py
-
-## Usage
-Zip Tree: You can use the zip_tree.py to create and manipulate a Zip Tree. Here's an example:
-
-from zip_tree import ZipTree
-
-tree = ZipTree()
-tree.insert(10)
-tree.insert(20)
-tree.delete(10)
-print(tree.search(20))  # Output: True
-Skip List: The skip_list.py contains the Skip List implementation. Example usage:
-
-from skip_list import SkipList
-
-slist = SkipList()
-slist.insert(15)
-slist.insert(30)
-slist.delete(15)
-print(slist.search(30))  # Output: True
